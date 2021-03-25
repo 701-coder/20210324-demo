@@ -1,7 +1,7 @@
 header="<header>\
 <div class='container'>\
     <nav class='navbar navbar-expand-lg navbar-light'>\
-        <a class='navbar-brand' href='home.html'>\
+        <a class='navbar-brand' href='index.html'>\
             <img src='inner.png'>\
         </a>\
         <button class='navbar-toggler' type='button' data-toggle='collapse'\
@@ -12,7 +12,7 @@ header="<header>\
         <div class='collapse navbar-collapse' id='navbarSupportedContent'>\
             <ul class='navbar-nav mr-auto'>\
                 <li class='nav-item active'>\
-                    <a class='nav-link' href='home.html'>首頁</a>\
+                    <a class='nav-link' href='index.html'>首頁</a>\
                 </li>\
                 <li class='nav-item'>\
                     <a class='nav-link' href='#'>師長的話</a>\
