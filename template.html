@@ -1,0 +1,124 @@
+<html>
+<head>
+    <meta charset='utf-8' name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--字型-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8182c5987b.js" crossorigin="anonymous"></script>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <div class='container'>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src='inner.png'>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">師長的話</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                專題
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">化學</a>
+                                <a class="dropdown-item" href="#">生物</a>
+                                <a class="dropdown-item" href="#">工程</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">資訊</a>
+                                <a class="dropdown-item" href="#">數學</a>
+                                <a class="dropdown-item" href="#">物理</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                影音相關
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">預告片</a>
+                                <a class="dropdown-item" href="#">有朋你要放的東東</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {% block main %}{% endblock %}
+    </main>
+
+    <footer>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-4 text-left'>
+                    <h4>聯絡我們</h4>
+                    Instagram: <a href='https://www.instagram.com/hallucination.tcfshcos10/' target='_blank'>@tcfshcos10</a>
+                </div>
+                <div class='col-md-4 text-left'>
+                    <h4>工作人員名單</h4>
+                    <ul>
+                        <li>總召</li>
+                        <li>副召</li>
+                        <li>文書組</li><li>　</li><li>　</li><li>　</li>
+                        <li>影片組</li><li>　</li><li>　</li>
+                        <li>公關組</li><li>　</li>
+                        <li>音樂組</li><li>　</li>
+                        <li>活動組</li><li>　</li><li>　</li>
+                        <li>總務</li>
+                    </ul>
+                    <ul>
+                        <li>許博翔</li>
+                        <li>吳秉謙、吳建沂</li>
+                        <li>盧昱璇、許博翔、陳柏瑄</li><li>黃士朋、廖廷偉、蔡啟陽</li><li>鄧賀謙、李玟臻、徐湘婷</li><li>賴庭萱</li>
+                        <li>陳為霖、吳子學、吳秉謙</li><li>吳建沂、陳為勳、蘇子強</li><li>李玟臻、賴庭萱</li>
+                        <li>王玄宇、吳子學、吳建沂</li><li>陳佳佑、陳冠穎</li>
+                        <li>張有朋、方陳慶、林濬祺</li><li>陳冠穎、黃士朋、盧昱璇</li>
+                        <li>廖子緹、王玄宇、張育萁</li><li>張宸熏、許子胤、陳佳佑</li><li>廖廷偉、賴禹宏</li>
+                        <li>黃士朋</li>
+                    </ul>
+                </div>
+                <div class='col-md-4 text-left'>
+                    <h4>特別感謝</h4>
+                    <ul>
+                        <li>教授1</li>
+                        <li>教授2</li>
+                        <li>教授3</li>
+                    </ul>
+                    <ul>
+                        <li><a href='#'>贊助商</a></li>
+                        <li><a href='https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%93%9C' target='_blank'>可愛的有朋</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
